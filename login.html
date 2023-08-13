@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log In page</title>
+    <link rel="shortcut icon" href="https://online.uom.lk/pluginfile.php/1/theme_moove/favicon/1679894346/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+    <link rel="stylesheet" type="text/css" href="login.css">
+
+    
+
+<script src="login.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="left-content">
+                <img src="logo.png">
+                <div class="heading1">University of Moratuwa</div>
+                <div class="heading2">Wisdom is all wealth</div>
+            </div>
+
+            <div class="right-content">
+                <div class="header"> USER LOGIN</div>
+
+                <form name="form" action="mylogin2.php" method="post" onsubmit="return validateForm(this)">
+                    <div class="input-container">
+                        <input type="text" name="username" placeholder="User Name">
+                        <p id="usernameErrorMessage" class="error-message">Please enter a username.</p>
+                    </div>
+
+                    <div class="input-container">
+                        <input type="password" name="password" placeholder="Password">
+                        <p id="passwordErrorMessage" class="error-message">Please enter a password.</p>
+                    </div>
+
+                    <p id="errorMessage" class="error-message">Please fill in all fields.</p>
+
+                    <input type="submit" class="btn-submit" name="submit" value="Log in">
+                </form>
+
+                <p>Don't have an account?&nbsp;&nbsp;<a href="sign_up.html">Sign Up</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>History Page</title>
+    <link rel="shortcut icon" href="https://online.uom.lk/pluginfile.php/1/theme_moove/favicon/1679894346/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+    <link rel="stylesheet" type="text/css" href="history.css">
+
+    <script src="history.js"></script>
+</head>
+
+<body >
+    <div class="banner">
+        <div class="slider">
+            <img name="slide"  id="slideImg">
+        </div>
+        <div class="overlay">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="logo.png" alt="">
+                    <div class="text-container">
+                        <div class="heading1">University of Moratuwa</div>
+                        <div class="heading2">Faculty of Information Technology</div>
+                    </div>
+                </div>
+                <div class="menu">
+                    <img src="history.png">
+                    <a href="history.html">History</a>
+                    <img src="inform.png">
+                    <a href="inform.html">Inform</a>
+                </div>
+            </div>
+            <div class="content_container">
+                <div class="header">
+                    HISTORY
+                </div>
+
+                <form action="" method="post" onsubmit="validateForm(event)">
+                    <div class="content">
+                        <label for="search">Search your records by</label>
+                        <span style="padding-right: 130px;"></span>
+                        <input type="radio" name="search" value="username" required>
+                        <label for="user">User name</label>
+                        <span style="padding-right: 10px;"></span>
+                        <input type="radio" name="search" value="date" required>
+                        <label for="user">Date</label>
+                    </div>
+
+                    <div class="search-bar">
+                        <input type="text" name="nameordate" placeholder="Search by User name or Date" required>
+                    </div>
+
+                    <button type="submit" class="record_table" name="submit">Open Record Table</button>
+                </form>
+            </div>
+
+            <footer>
+                <a href="https://www.facebook.com/itfac.mrt/"><i class="fa-brands fa-facebook-f fa-3xs" ></i></a>
+                <a href="https://twitter.com/uom_its?lang=en"><i class="fa-brands fa-square-twitter fa-3xs"></i></a>
+                <a href="https://uom.lk/itfac"><i class="fa-brands fa-google-plus-g fa-3xs"></i></a>
+                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram fa-3xs" ></i></a>
+                <a href="https://www.youtube.com/channel/UCelf8BNPSMoNyACywNr-Kpw"><i class="fa-brands fa-youtube fa-3xs" ></i></a>
+                <br><br><br><br>
+
+            </footer>
+
+        </div>
+        
+        
+    </div>
+
+    
+</body>
+
+</html>

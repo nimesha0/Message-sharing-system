@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up page</title>
+        <link rel="shortcut icon" href="https://online.uom.lk/pluginfile.php/1/theme_moove/favicon/1679894346/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+        <link rel="stylesheet" type="text/css" href="sign_up.css">
+
+
+        
+        <script src="sign_up.js"></script>
+         
+
+    </head>
+
+    <body>
+
+    <div class="container">
+        <div class="card">
+            <div class="left-content">
+                <img src="logo.png">
+                <div class="heading1">University of Moratuwa</div>
+                <div class="heading2">Wisdom is all wealth</div>
+            </div>
+
+                <div class="right-content">
+                <div class="header"> Sign Up</div>
+
+                <form name="form" action="sign_up.php" method="post" onsubmit="return validateForm(this)">
+
+                    <div class="input-container">
+                        <input type="text" name="username" placeholder="User Name">
+                        <p id="usernameErrorMessage" class="error-message">Please enter a username.</p>
+                    </div>
+
+                    <div class="input-container">
+                        <input type="password" name="auPassword" placeholder="Dean's Authentication Password">
+                        <p id="auPasswordErrorMessage" class="error-message">Please enter Dean's authentication password.</p>
+                    </div>
+
+                    <div class="input-container">
+                        <input type="password" name="password" placeholder="Password">
+                        <p id="passwordErrorMessage" class="error-message">Please enter a password.</p>
+                    </div>
+                
+                    <div class="input-container">
+                        <input type="password" name="con_password" placeholder="Confirm Password">
+                        <p id="confirmPasswordErrorMessage" class="error-message">Please confirm the password.</p>
+                    </div>   
+                            
+
+                <input type="submit" class="btn-submit"  name="submit" value="Sign Up">
+
+                </form>
+                
+                <p>Already have an account?&nbsp;&nbsp;
+                    <a href="logIn.html">Log In</a></p>
+            </div>
+            
+          </div>
+      
+    </div>  
+
+    </body>
+
+
+</html>

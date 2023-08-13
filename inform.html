@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inform Page</title>
+    <link rel="shortcut icon" href="https://online.uom.lk/pluginfile.php/1/theme_moove/favicon/1679894346/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+    <link rel="stylesheet" type="text/css" href="inform.css">
+
+    <script src="inform.js"></script>
+</head>
+
+<body >
+    <div class="banner">
+        <div class="slider">
+            <img name="slide"  id="slideImg">
+        </div>
+        <div class="overlay">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="logo.png" alt="">
+                    <div class="text-container">
+                        <div class="heading1">University of Moratuwa</div>
+                        <div class="heading2">Faculty of Information Technology</div>
+                    </div>
+                </div>
+                <div class="menu">
+                    <img src="history.png">
+                    <a href="history.html">History</a>
+                    <img src="inform.png">
+                    <a href="inform.html">Inform</a>
+                </div>
+            </div>
+            <div class="content_container">
+                <div class="header"> 
+                    PROVIDE PROMPT INFORMATION
+                </div>
+    
+                <form name="form" action="input.php" method="post" enctype="multipart/form-data" onsubmit="return validateForm(this)">
+                <div class="content">
+                    <textarea name="message" cols="70" rows="3" placeholder="Enter what do want to inform" style="border: none;padding: 10px 20px;text-align: center;flex: 1;font-size: 13px;"></textarea>
+                </div>
+    
+                <div class="content2">
+                    <lable for>Upload Video or Image</lable>
+                    <span style="padding-right: 50px;"></span>
+                    <input type="file" id="form-file" name="file" >
+                </div>
+    
+                
+                    <div class="dropdown">
+                        <select name="floor">
+                          <option value="Default">Select the floor</option>
+                          <option value="option1">Floor 1</option>
+                          <option value="option2">Floor 2</option>
+                          <option value="option3">Floor 3</option>
+                          <option value="option4">Floor 4</option>
+                          <option value="option5">All</option>
+
+                        </select>
+                      </div>
+                
+                
+                <input type="submit" class="btn-submit"  name="submit" value="Submit">
+            
+                
+                
+    
+                </form>
+                
+            </div>
+            
+            <footer>
+                <a href="https://www.facebook.com/itfac.mrt/"><i class="fa-brands fa-facebook-f fa-3xs" ></i></a>
+                <a href="https://twitter.com/uom_its?lang=en"><i class="fa-brands fa-square-twitter fa-3xs"></i></a>
+                <a href="https://uom.lk/itfac"><i class="fa-brands fa-google-plus-g fa-3xs"></i></a>
+                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram fa-3xs" ></i></a>
+                <a href="https://www.youtube.com/channel/UCelf8BNPSMoNyACywNr-Kpw"><i class="fa-brands fa-youtube fa-3xs" ></i></a>
+                <br><br><br><br>
+            </footer>
+            
+
+        </div>
+        
+        
+    </div>
+
+    
+</body>
+
+</html>

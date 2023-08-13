@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    background-image:  linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('card1.jpeg'); 
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.container{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 760px;
+    
+    
+   
+  }
+  
+  
+  
+  .right-content {
+    background: #ebebee;
+    height: 500px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 20px;
+    border-radius: 2px;
+    border: none;
+  }
+.left-content{
+    background: rgb(156, 167, 160);
+    height: 500px;
+    width: 1000px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 20px;
+    border-radius: 2px;
+    opacity:0.8;
+}
+.left-content img{
+    width: 150px;
+    margin:0 auto;
+    
+}
+
+.heading1{
+    
+    padding-top: 50px;
+    font-family: 'Lato', Helvetica Neue, Arial, Sans-serif;
+    font-size: 28px;
+    font-weight:550;
+    color:#fff;
+}
+.heading2{
+    
+    font-family: 'Lato', Helvetica Neue, Arial, Sans-serif;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-left: 60px;
+    font-style: italic;
+}
+
+.header{
+    padding-left: 80px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    font-family: sans-serif;
+    color:rgb(52, 51, 51);
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+input{
+    background: #f8f8fa;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 60px;
+    padding: 10px 20px;
+    opacity: 0.7;
+    width: 300px;
+    padding-left: 40px;
+    padding-right: 30px;
+    margin-right: 20px;
+}
+input:hover{
+    border: 1px solid black;
+    font-size: 15px;
+}
+::placeholder{
+    color: #59595e;
+}
+.btn-submit{
+    width: 100%;
+    max-width: 160px;
+    background-color:#961300;
+    color: #fff;
+    display: block;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 auto;
+    margin-left: 100px;
+
+   
+    
+}
+input[type="password"] {
+    margin-bottom: 30px;
+  }
+  
+
+  
+.btn-submit:hover{
+    background-color: transparent;
+    border: 2px solid #961300;
+    color: #961300;
+}
+p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding-left: 80px;
+    margin-bottom: 40px;
+    color: #464242;
+}
+
+p a{
+    color:rgb(15, 112, 15);
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.error-message {
+    color: #961300;
+    font-size: 14px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 2px;
+    display: none;
+}
+
+.input-error {
+    border: 2px solid #961300;
+}
+
+.input-success {
+    border: 2px solid #8aa193;
+}
